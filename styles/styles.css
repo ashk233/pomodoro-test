@@ -10,6 +10,11 @@ div {
     margin: auto;
 }
 
+ul {
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -27,12 +32,24 @@ div {
 
 #timer { 
     color: #B7DAEB;
-    font-size: 220px;
+    font-size: 13rem;
 }
 
 #buttons {
     display: flex;
     justify-content: space-around;
+}
+
+#title {
+    color: #B7DAEB;
+    font-size: 36px;
+    padding: 10px 0;
+}
+
+#list-box * {
+    background-color: #B7DAEB;
+    border-radius: 10px;
+    font-size: 24px;
 }
 
 img {
@@ -57,4 +74,14 @@ button {
 .button-on {
     background-color: #FF671D;
     color: white;
+}
+
+.list-title > p {
+    color: #08222E;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

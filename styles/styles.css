@@ -39,7 +39,7 @@ ul {
 
 #buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #title {
@@ -70,7 +70,7 @@ img {
 button {
     border: none;
     border-radius: 57px;
-    padding: 20px 12% 20px 12%;
+    padding: 20px 14% 20px 14%;
     display: inline-block;
     font-size: 36px;
     cursor: pointer;

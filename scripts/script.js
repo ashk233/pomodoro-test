@@ -15,19 +15,13 @@ const pomo2 = document.getElementById('pomo2');
 const pomo3 = document.getElementById('pomo3');
 const pomo4 = document.getElementById('pomo4');
 pomo1.addEventListener('click', function() {
-    if (pomo1.getAttribute('alt')=='yes') {
-        whitePomo(pomo1);
         whitePomo(pomo2);
         whitePomo(pomo3);
         whitePomo(pomo4);
-    } else {
-        colorPomo(pomo1);
-    }
 });
 
 pomo2.addEventListener('click', function() {
     if (pomo2.getAttribute('alt')=='yes') {
-        whitePomo(pomo2);
         whitePomo(pomo3);
         whitePomo(pomo4);
     } else {
@@ -38,7 +32,6 @@ pomo2.addEventListener('click', function() {
 
 pomo3.addEventListener('click', function() {
     if (pomo3.getAttribute('alt')=='yes') {
-        whitePomo(pomo3);
         whitePomo(pomo4);
     } else {
         colorPomo(pomo1);
@@ -47,14 +40,10 @@ pomo3.addEventListener('click', function() {
     }
 });
 pomo4.addEventListener('click', function() {
-    if (pomo4.getAttribute('alt')=='yes') {
-        whitePomo(pomo4);
-    } else {
         colorPomo(pomo1);
         colorPomo(pomo2);
         colorPomo(pomo3);
         colorPomo(pomo4);
-    }
 });
 
 function colorPomo(pomo) {
